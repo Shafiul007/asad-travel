@@ -136,7 +136,7 @@ font-family: 'Work Sans', sans-serif;
     padding-right: 50px;
     text-align: left;
 }
-.part1 .txt h1{
+.heads{
     font-size: 2.5rem;
     font-family: 'Atkinson Hyperlegible', sans-serif;
     font-family: 'Dancing Script', cursive;
@@ -360,22 +360,40 @@ font-family: 'Work Sans', sans-serif;
 .offer-information1{
     position: absolute;
     z-index: 2;
-    padding:20px 30px;
+    padding:50px 45px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    top: 40px;
+    right: 100px;
+    width: 579px;
+    height: 389px;
 }
 .offer-information1 p{
-    color: black;
+    color:rgb(0, 0, 0);
+    padding-bottom: 15px;
+    padding-right: 50px;
+    text-align: left;
 }
+.offer-information1 .upper{
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.offer-information1 i{
+    padding-left: 10px;
+}
+.offer-information1 h2{
+    font-size: 1.7rem;
+    color: red;
+    padding-bottom: 15px;
+}
+
 .offer1 img{
     position: absolute;
     height: 500px;
     width: 1170px;
 }
-.offer-information{
-    position: absolute;
-    width: 579px;
-    height: 389px;
-    padding: 30px;
-}
+
 .offer .offer2{
     position: relative;
     height: 500px;
@@ -386,6 +404,36 @@ font-family: 'Work Sans', sans-serif;
     position: absolute;
     height: 500px;
     width: 1170px;
+}
+.offer-information2{
+    position: absolute;
+    z-index: 2;
+    padding:50px 45px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    top: 40px;
+    left: 100px;
+    width: 579px;
+    height: 389px;
+}
+.offer-information2 p{
+    color:rgb(0, 0, 0);
+    padding-bottom: 15px;
+    padding-right: 50px;
+    text-align: left;
+}
+.offer-information2 .upper{
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.offer-information2 i{
+    padding-left: 10px;
+}
+.offer-information2 h2{
+    font-size: 1.7rem;
+    color: red;
+    padding-bottom: 15px;
 }
 .offer .offer3{
     position: relative;
@@ -398,6 +446,36 @@ font-family: 'Work Sans', sans-serif;
     position: absolute;
     height: 500px;
     width: 1170px;
+}
+.offer-information3{
+    position: absolute;
+    z-index: 2;
+    padding:50px 45px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    top: 40px;
+    right: 100px;
+    width: 579px;
+    height: 389px;
+}
+.offer-information3 p{
+    color:rgb(0, 0, 0);
+    padding-bottom: 15px;
+    padding-right: 50px;
+    text-align: left;
+}
+.offer-information3 .upper{
+    
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.offer-information3 i{
+    padding-left: 10px;
+}
+.offer-information3 h2{
+    font-size: 1.7rem;
+    color: red;
+    padding-bottom: 15px;
 }
 .part7{
     padding: 40px 100px;
@@ -743,11 +821,32 @@ footer .icon i{
         height: 300px;
         width: 450px;
     }
-    .offer-information{
-        position: absolute;
-        height: 300px;
-        width: 450px;
-        padding: 30px;
+    .offer-information1{
+        height: 250px;
+        width: 350px;
+        padding: 10px;
+        top: 20px;
+        left: 30px;
+    }
+    
+    .offer-information1 p{
+        color:rgb(0, 0, 0);
+        padding-bottom: 5px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    .offer-information1 h1{
+        font-size: 1.5rem;
+    }
+    .offer-information1 .upper{
+        
+        padding-top: 5px;
+        padding-bottom:5px;
+    }
+    .offer-information1 h2{
+        font-size: 1.4rem;
+        color: red;
+        padding-bottom: 8px;
     }
     .offer .offer2{
         position: relative;
@@ -760,6 +859,33 @@ footer .icon i{
         height: 300px;
         width: 450px;
     }
+    .offer-information2{
+        height: 250px;
+        width: 350px;
+        padding: 10px;
+        top: 20px;
+        left: 30px;
+    }
+    
+    .offer-information2 p{
+        color:rgb(0, 0, 0);
+        padding-bottom: 5px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    .offer-information2 h1{
+        font-size: 1.5rem;
+    }
+    .offer-information2 .upper{
+        
+        padding-top: 5px;
+        padding-bottom:5px;
+    }
+    .offer-information2 h2{
+        font-size: 1.4rem;
+        color: red;
+        padding-bottom: 8px;
+    }
     .offer .offer3{
         position: relative;
         height: 300px;
@@ -771,6 +897,33 @@ footer .icon i{
         position: absolute;
         height: 300px;
         width: 450px;
+    }
+    .offer-information3{
+        height: 250px;
+        width: 350px;
+        padding: 10px;
+        top: 20px;
+        left: 30px;
+    }
+    
+    .offer-information3 p{
+        color:rgb(0, 0, 0);
+        padding-bottom: 5px;
+        padding-right: 20px;
+        text-align: left;
+    }
+    .offer-information3 h1{
+        font-size: 1.5rem;
+    }
+    .offer-information3 .upper{
+        
+        padding-top: 5px;
+        padding-bottom:5px;
+    }
+    .offer-information3 h2{
+        font-size: 1.4rem;
+        color: red;
+        padding-bottom: 8px;
     }
     .step > div{
         padding: 10px;
@@ -849,6 +1002,7 @@ footer .icon i{
          transform: rotate(-19deg);
     }
     footer{
+        width:600px;
         padding: 7%;
         text-align: center;
         background: rgba(19, 19, 24, 0.05);
