@@ -749,7 +749,7 @@ footer .icon i:hover{
         left: 90px;
     }
     .destination{
-        padding: 20px;
+        padding:2%;
         justify-content: center;
         align-items: center;
     }
@@ -940,7 +940,7 @@ footer .icon i:hover{
     }
    
     .part7{
-        padding:10px;
+        padding:2%;
         flex-direction: column;
     }
     .part7 .txt{
