@@ -602,6 +602,9 @@ footer .icon i{
     margin-right: 15px;
 
 }
+footer .icon i:hover{
+    color:rgb(0, 132, 255);
+}
 
 @media screen and (max-width:600px) {
     nav{
@@ -1020,7 +1023,5 @@ footer .icon i{
         margin-right: 15px;
     
     }
-    footer .icon i:hover{
-        color:aqua;
-    }
+    
 }
