@@ -186,35 +186,87 @@ font-family: 'Work Sans', sans-serif;
     grid-template-rows: repeat(3/1fr);
 
 }
+
+.head1{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
 .pt1{
     position: relative;
     grid-column: 1/span 6;
     grid-row: 1/span 1;
 }
+.head2{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
 .pt2{
     position: relative;
     grid-column: 7/span 6;
     grid-row: 1/span 1;
+}
+.head3{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
 }
 .pt3{
     position: relative;
     grid-column: 1/span 4;
     grid-row: 2/span 1;
 }
+.head4{
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
 .pt4{
     position: relative;
     grid-column: 5/span 5;
     grid-row: 2/span 1;
+}
+.head5{
+    position: absolute;
+    top: 120px;
+    left: -40px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
 }
 .pt5{
     position: relative;
     grid-column: 10/span 3;
     grid-row: 2/span 1;
 }
+.head6{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
 .pt6{
     position: relative;
     grid-column: 1/span 5;
     grid-row: 3/span 1;
+}
+.head7{
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    color: rgb(255, 255, 255);
+    z-index: 2;
 }
 .pt7{
     position: relative;
@@ -253,6 +305,10 @@ font-family: 'Work Sans', sans-serif;
 .step > div{
     padding: 20px 40px;
     border-radius: 10px;
+}
+.step > div:hover{
+    padding: 15px 40px;
+    box-shadow: 8px 8px 10px grey,-8px -8px 10px grey;
 }
 .step > div > p{
     padding-top:20px;
@@ -459,5 +515,358 @@ footer .icon i{
 }
 
 @media screen and (max-width:600px) {
-            
+    nav{
+        padding:10px;
+        flex-direction: column;
+        text-align: center;
+    }
+    nav .menu ul li a{
+        font-size: 0.8rem;
+        text-decoration: none;
+        color: black;
+    
+    }
+    .banner{
+        border-radius: 10px;
+        margin: 10px;
+        width:450px;
+        height: 300px;
+      
+    }
+    .banner .bg{
+        border-radius: 10px;
+        width:450px;
+        height: 300px;
+        position: absolute;
+        background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
+        z-index:1;
+        
+    }
+    .banner img{
+        border-radius: 10px;
+        position: absolute;
+        width:450px;
+        height: 300px;
+        z-index:-1;
+    }
+    .banner .banner-text{
+        padding-top: 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width:450px;
+        height: 300px;
+        position: absolute;
+        z-index: 2;
+        color: white;
+    }
+    .banner-text h1{
+        font-size: 1.6rem;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Salsa', cursive;
+    font-family: 'Tektur', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    }
+    .banner-text p{
+        padding:10px 15px;
+    }
+    .banner-text .option{
+        border-radius: 10px;
+        margin-left: 24%;
+        background-color:rgba(255, 255, 255, 0.5);
+        width: 50%;
+        margin-top: 10px;
+        padding:5px;
+    }
+    .banner-text input{
+        width:210px
+        padding: 8px 20px;
+        border-radius: 8px;
+        border: 0px;
+        margin-bottom: 5px;
+    }
+    .banner-text select{
+        margin-bottom: 5px;
+        width:210px;
+        padding: 8px 20px;
+        border: 0px;
+        border-radius: 5px;
+    }
+    .part1{
+        padding:15px;
+        flex-direction: column;
+    }
+    .part1 .txt{
+        padding-left: 10px;
+        padding-right:10px;
+        margin-bottom: 15px;
+    }
+    .part1 .txt h1{
+        font-size: 2rem;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Salsa', cursive;
+        font-family: 'Tektur', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        padding-bottom:15px;
+    }
+    .part1 .txt li{
+        padding-bottom:10px;
+        color: grey;
+    }
+    .part1 .txt p{
+        padding-bottom:10px;
+        color: grey;
+    }
+    .part1 img{
+        width: 100%;
+    }
+    .head1{
+        top: 70px;
+        left: 100px;
+    }
+    .head2{
+        top: 70px;
+        left: 100px;
+    }
+    .head3{
+        top: 130px;
+        left: 100px;
+    }
+    .head4{
+        top: 90px;
+        left: 100px;
+    }
+    .head5{
+        top: 190px;
+        left: 100px;
+    }
+    .head6{
+        top: 100px;
+        left: 90px;
+    }
+    .head7{
+        top: 70px;
+        left: 90px;
+    }
+    .destination{
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    .destination h1{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Salsa', cursive;
+        font-family: 'Tektur', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        padding: 10px;
+        text-align: center;
+        font-size: 2.1rem;
+    }
+    .destination p{
+        padding: 10px;
+        text-align: center;
+        color: grey;
+    }
+    .destination .place{
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display:flex;
+        flex-direction: column;
+    
+    }
+    .place > div{
+        width:400px;
+    }
+    .place > div >img{
+        width: 100%;
+    }  
+
+    .choose{
+        padding: 10px;
+    }
+    .head{
+        font-size: 2rem;
+        text-align:left;
+
+    }
+    .choose .para{
+        text-align: center;
+        padding:10px;
+        color: grey;
+    }
+    .choose .step{
+        display: flex;
+       flex-direction: column;
+        
+    }
+    .deals{
+        padding:15px;
+       
+    }
+    .deals p{
+        text-align: center;
+        padding-bottom: 10px;
+        color: grey;
+    
+    }
+    .offer{
+        margin-bottom: 15px;
+    }
+    .offer .offer1{
+        position: relative;
+        height: 300px;
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    .offer1 img{
+        position: absolute;
+        height: 300px;
+        width: 450px;
+    }
+    .offer-information{
+        position: absolute;
+        height: 300px;
+        width: 450px;
+        padding: 30px;
+    }
+    .offer .offer2{
+        position: relative;
+        height: 300px;
+        width: 450px;
+        margin-bottom: 30px;
+    }
+    .offer2 img{
+        position: absolute;
+        height: 300px;
+        width: 450px;
+    }
+    .offer .offer3{
+        position: relative;
+        height: 300px;
+        width: 450px;
+        margin-bottom: 30px;
+    
+    }
+    .offer3 img{
+        position: absolute;
+        height: 300px;
+        width: 450px;
+    }
+    .step > div{
+        padding: 10px;
+        border-radius: 10px;
+    }
+ 
+    .step > div > p{
+        padding-right: 10px;
+    }
+   
+    .part7{
+        padding:10px;
+        flex-direction: column;
+    }
+    .part7 .txt{
+        padding-right: 10px;
+    }
+    .part8{
+        padding:10px;
+        flex-direction: column;
+    }
+    .part8 .left{
+      
+        padding: 10px 10px 10px 30px;
+        border-radius: 8px;
+        border: 1px solid orangered;
+        margin-right: 10px;
+        height: 330px;
+        margin-bottom: 20px;
+    }
+    .heads{
+        padding-bottom: 15px;
+        font-size: 2rem;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Salsa', cursive;
+        font-family: 'Tektur', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+    }
+    .part8 .left p{
+        font-size: 1rem;
+        padding-bottom: 10px;
+        padding-right: 10px;
+    
+    }
+    .btn2{
+        width: 300px;
+        padding: 20px;
+        border: 0px;
+        border-radius: 5px;
+        background: rgba(68, 65, 65, 0.3);
+    }
+    .btn1{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Salsa', cursive;
+        font-family: 'Tektur', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        width: 300px;
+        padding: 20px;
+        border: 0px;
+        border-radius: 5px;
+        background: rgb(255, 136, 0);
+    }
+    .btn1:hover{
+        background-color: aquamarine;
+        color: rgb(255, 0, 0);
+    }
+    .part8 .right .text{
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Salsa', cursive;
+        font-family: 'Tektur', sans-serif;
+        font-family: 'Work Sans', sans-serif;
+        color: white;
+         position:relative;
+         width: 320px;
+         height: 100px;
+         padding: 20px;
+         text-align: center;
+         border-radius: 16px;
+         background: #FF5400;
+         right: -320px;
+         top: -150px;
+         transform: rotate(-19deg);
+    }
+    footer{
+        padding: 7%;
+        text-align: center;
+        background: rgba(19, 19, 24, 0.05);
+        justify-content: center;
+        align-items: center;
+    }
+ 
+    footer p{
+        padding: 20px 5%;
+    }
+  
+    footer .icon i{
+        font-size: 205%;
+        margin-right: 15px;
+    
+    }
 }
