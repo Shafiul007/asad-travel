@@ -116,13 +116,13 @@ font-family: 'Work Sans', sans-serif;
     color: black;
 }
 .banner-text input{
-    
+    width: 140px;
     padding: 8px 20px;
     border-radius: 8px;
     border: 0px;
 }
 .banner-text select{
-   
+    width: 140px;
     padding: 8px 20px;
     border: 0px;
     border-radius: 5px;
@@ -609,6 +609,7 @@ footer .icon i{
         flex-direction: column;
         text-align: center;
     }
+
     nav .menu ul li a{
         font-size: 0.8rem;
         text-decoration: none;
@@ -618,13 +619,13 @@ footer .icon i{
     .banner{
         border-radius: 10px;
         margin: 10px;
-        width:450px;
+        width:95%;
         height: 300px;
       
     }
     .banner .bg{
         border-radius: 10px;
-        width:450px;
+        width:95%;
         height: 300px;
         position: absolute;
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
@@ -634,7 +635,7 @@ footer .icon i{
     .banner img{
         border-radius: 10px;
         position: absolute;
-        width:450px;
+        width:95%;
         height: 300px;
         z-index:-1;
     }
@@ -643,7 +644,7 @@ footer .icon i{
         justify-content: center;
         align-items: center;
         text-align: center;
-        width:450px;
+        width:95%;
         height: 300px;
         position: absolute;
         z-index: 2;
@@ -664,14 +665,14 @@ footer .icon i{
     }
     .banner-text .option{
         border-radius: 10px;
-        margin-left: 24%;
+        margin-left: 22%;
         background-color:rgba(255, 255, 255, 0.5);
-        width: 50%;
+        width: 55%;
         margin-top: 10px;
         padding:5px;
     }
     .banner-text input{
-        width:210px
+        width:210px;
         padding: 8px 20px;
         border-radius: 8px;
         border: 0px;
@@ -813,20 +814,20 @@ footer .icon i{
     .offer .offer1{
         position: relative;
         height: 400px;
-        width: 450px;
+        width: 100%;
         margin-bottom: 30px;
     }
     .offer1 img{
         position: absolute;
         height: 400px;
-        width: 450px;
+        width: 100%;
     }
     .offer-information1{
         height: 250px;
         width: 350px;
         padding: 10px;
         top: 120px;
-        left: 30px;
+        left: 20px;
     }
     
     .offer-information1 p{
@@ -851,20 +852,20 @@ footer .icon i{
     .offer .offer2{
         position: relative;
         height: 400px;
-        width: 450px;
+        width: 100%;
         margin-bottom: 30px;
     }
     .offer2 img{
         position: absolute;
         height: 400px;
-        width: 450px;
+        width: 100%;
     }
     .offer-information2{
         height: 250px;
         width: 350px;
         padding: 10px;
         top: 120px;
-        left: 30px;
+        left: 20px;
     }
     
     .offer-information2 p{
@@ -889,21 +890,21 @@ footer .icon i{
     .offer .offer3{
         position: relative;
         height: 400px;
-        width: 450px;
+        width:100%;
         margin-bottom: 30px;
     
     }
     .offer3 img{
         position: absolute;
         height: 400px;
-        width: 450px;
+        width: 100%;
     }
     .offer-information3{
         height: 250px;
         width: 350px;
         padding: 10px;
         top: 120px;
-        left: 30px;
+        left: 20px;
     }
     
     .offer-information3 p{
@@ -1002,7 +1003,7 @@ footer .icon i{
          transform: rotate(-19deg);
     }
     footer{
-        width:600px;
+        width:100%;
         padding: 7%;
         text-align: center;
         background: rgba(19, 19, 24, 0.05);
@@ -1018,5 +1019,8 @@ footer .icon i{
         font-size: 205%;
         margin-right: 15px;
     
+    }
+    footer .icon i:hover{
+        color:aqua;
     }
 }
