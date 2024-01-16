@@ -362,6 +362,9 @@ font-family: 'Work Sans', sans-serif;
     z-index: 2;
     padding:20px 30px;
 }
+.offer-information1 p{
+    color: black;
+}
 .offer1 img{
     position: absolute;
     height: 500px;
