@@ -776,6 +776,10 @@ footer .icon i{
     }
     .part7 .txt{
         padding-right: 10px;
+        margin-bottom: 15px;
+    }
+    .part7 img{
+        width:400px;
     }
     .part8{
         padding:10px;
@@ -793,13 +797,6 @@ footer .icon i{
     .heads{
         padding-bottom: 15px;
         font-size: 2rem;
-        font-family: 'Atkinson Hyperlegible', sans-serif;
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Salsa', cursive;
-        font-family: 'Tektur', sans-serif;
-        font-family: 'Work Sans', sans-serif;
     }
     .part8 .left p{
         font-size: 1rem;
@@ -815,41 +812,29 @@ footer .icon i{
         background: rgba(68, 65, 65, 0.3);
     }
     .btn1{
-        font-family: 'Atkinson Hyperlegible', sans-serif;
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Salsa', cursive;
-        font-family: 'Tektur', sans-serif;
-        font-family: 'Work Sans', sans-serif;
         width: 300px;
-        padding: 20px;
-        border: 0px;
-        border-radius: 5px;
-        background: rgb(255, 136, 0);
     }
-    .btn1:hover{
-        background-color: aquamarine;
-        color: rgb(255, 0, 0);
+    .part8 .right img{
+        width: 100%;
+    }
+    .part8 .right .text h1{
+        font-size: 1.2rem;
+    }
+    .part8 .right .text h4{
+        font-size: 0.8rem;
     }
     .part8 .right .text{
-        font-family: 'Atkinson Hyperlegible', sans-serif;
-        font-family: 'Dancing Script', cursive;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'Roboto', sans-serif;
-        font-family: 'Salsa', cursive;
-        font-family: 'Tektur', sans-serif;
-        font-family: 'Work Sans', sans-serif;
+        
         color: white;
          position:relative;
-         width: 320px;
-         height: 100px;
-         padding: 20px;
+         width: 200px;
+         height: 60px;
+         padding: 10px;
          text-align: center;
          border-radius: 16px;
          background: #FF5400;
-         right: -320px;
-         top: -150px;
+         right: -190px;
+         top: -91px;
          transform: rotate(-19deg);
     }
     footer{
