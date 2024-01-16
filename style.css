@@ -348,11 +348,19 @@ font-family: 'Work Sans', sans-serif;
 .offer{
     margin-bottom: 30px;
 }
-.offer .offer1{
+.offer1{
     position: relative;
     height: 500px;
     width: 1170px;
     margin-bottom: 30px;
+}
+.offer1 img{
+    z-index: -1;
+}
+.offer-information1{
+    position: absolute;
+    z-index: 2;
+    padding:20px 30px;
 }
 .offer1 img{
     position: absolute;
