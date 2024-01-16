@@ -624,13 +624,13 @@ footer .icon i:hover{
         border-radius: 10px;
         margin: 10px;
         width:95%;
-        height: 300px;
+        height: 350px;
       
     }
     .banner .bg{
         border-radius: 10px;
         width:95%;
-        height: 300px;
+        height: 350px;
         position: absolute;
         background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(255, 255, 255, 0));
         z-index:1;
@@ -640,7 +640,7 @@ footer .icon i:hover{
         border-radius: 10px;
         position: absolute;
         width:95%;
-        height: 300px;
+        height: 350px;
         z-index:-1;
     }
     .banner .banner-text{
@@ -649,7 +649,7 @@ footer .icon i:hover{
         align-items: center;
         text-align: center;
         width:95%;
-        height: 300px;
+        height: 350px;
         position: absolute;
         z-index: 2;
         color: white;
@@ -676,7 +676,7 @@ footer .icon i:hover{
         padding:15px;
     }
     .banner-text input{
-        width:210px;
+        width:90%;
         padding: 8px 20px;
         border-radius: 8px;
         border: 0px;
@@ -684,7 +684,7 @@ footer .icon i:hover{
     }
     .banner-text select{
         margin-bottom: 5px;
-        width:210px;
+        width:90%;
         padding: 8px 20px;
         border: 0px;
         border-radius: 5px;
@@ -827,7 +827,7 @@ footer .icon i:hover{
         width: 100%;
     }
     .offer-information1{
-        height: 250px;
+        height: 270px;
         width: 350px;
         padding: 10px;
         top: 120px;
@@ -865,7 +865,7 @@ footer .icon i:hover{
         width: 100%;
     }
     .offer-information2{
-        height: 250px;
+        height: 270px;
         width: 350px;
         padding: 10px;
         top: 120px;
@@ -904,7 +904,7 @@ footer .icon i:hover{
         width: 100%;
     }
     .offer-information3{
-        height: 250px;
+        height: 270px;
         width: 350px;
         padding: 10px;
         top: 120px;
