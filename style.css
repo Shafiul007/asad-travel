@@ -685,6 +685,9 @@ footer .icon i:hover{
         border: 0px;
         margin-bottom: 5px;
     }
+    .banner-text .btn{
+        width:90%;
+    }
     .banner-text select{
         margin-bottom: 5px;
         width:90%;
