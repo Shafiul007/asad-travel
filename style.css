@@ -339,14 +339,12 @@ font-family: 'Work Sans', sans-serif;
     grid-row: 2/span 1;
 }
 .deals{
-    padding: 30px 100px;
-   
+    padding: 30px 100px;   
 }
 .deals p{
     text-align: center;
     padding-bottom: 20px;
     color: grey;
-
 }
 .offer{
     margin-bottom: 30px;
@@ -817,6 +815,9 @@ footer .icon i:hover{
         padding:15px;
        
     }
+    .deals .head{
+        text-align: center;
+    }
     .deals p{
         text-align: center;
         padding-bottom: 10px;
@@ -838,9 +839,9 @@ footer .icon i:hover{
         width: 100%;
     }
     .offer-information1{
-        height: 270px;
-        width: 350px;
-        padding: 10px;
+        height:67%;
+        width: 95%;
+        padding: 2.5%;
         top: 120px;
         left:2%;
     }
@@ -855,7 +856,6 @@ footer .icon i:hover{
         font-size: 1.5rem;
     }
     .offer-information1 .upper{
-        
         padding-top: 5px;
         padding-bottom:5px;
     }
@@ -876,8 +876,8 @@ footer .icon i:hover{
         width: 100%;
     }
     .offer-information2{
-        height: 270px;
-        width: 350px;
+        height:67%;
+        width: 95%;
         padding: 10px;
         top: 120px;
         left:2%;
@@ -915,8 +915,8 @@ footer .icon i:hover{
         width: 100%;
     }
     .offer-information3{
-        height: 270px;
-        width: 350px;
+        height:67%;
+        width: 95%;
         padding: 10px;
         top: 120px;
         left:2%;
