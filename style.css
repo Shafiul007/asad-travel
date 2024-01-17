@@ -620,6 +620,9 @@ footer .icon i:hover{
     nav .menu i{
         display: inline;
     }
+    nav .menu i:hover ul{
+        display: inline-block;
+    }
     .banner{
         border-radius: 10px;
         margin: 10px;
@@ -721,32 +724,32 @@ footer .icon i:hover{
         width: 100%;
     }
     .head1{
-        top: 70px;
-        left: 100px;
+        top: 40%;
+        left: 27%;
     }
     .head2{
-        top: 70px;
-        left: 100px;
+        top: 40%;
+        left: 27%;
     }
     .head3{
-        top: 130px;
-        left: 100px;
+        top: 40%;
+        left: 27%;
     }
     .head4{
-        top: 90px;
-        left: 100px;
+        top: 40%;
+        left: 27%;
     }
     .head5{
-        top: 190px;
-        left: 100px;
+        top: 40%;
+        left: 27%;
     }
     .head6{
-        top: 100px;
-        left: 90px;
+        top: 40%;
+        left: 27%;
     }
     .head7{
-        top: 70px;
-        left: 90px;
+        top: 40%;
+        left: 27%;
     }
     .destination{
         padding:2%;
@@ -778,14 +781,17 @@ footer .icon i:hover{
     }
     
     .place > div{
-        width:400px;
+        width:100%;
     }
     .place > div >img{
-        width: 100%;
+        width: 98%;
     }  
 
     .choose{
         padding: 10px;
+    }
+    .choose .head{
+        text-align: center;
     }
     .head{
         font-size: 2rem;
@@ -831,7 +837,7 @@ footer .icon i:hover{
         width: 350px;
         padding: 10px;
         top: 120px;
-        left: 20px;
+        left:2%;
     }
     
     .offer-information1 p{
@@ -869,7 +875,7 @@ footer .icon i:hover{
         width: 350px;
         padding: 10px;
         top: 120px;
-        left: 20px;
+        left:2%;
     }
     
     .offer-information2 p{
@@ -908,7 +914,7 @@ footer .icon i:hover{
         width: 350px;
         padding: 10px;
         top: 120px;
-        left: 20px;
+        left:2%;
     }
     
     .offer-information3 p{
@@ -948,7 +954,7 @@ footer .icon i:hover{
         margin-bottom: 15px;
     }
     .part7 img{
-        width:400px;
+        width:98%;
     }
     .part8{
         padding:10px;
@@ -1002,7 +1008,7 @@ footer .icon i:hover{
          text-align: center;
          border-radius: 16px;
          background: #FF5400;
-         right: -190px;
+         left:40%;
          top: -91px;
          transform: rotate(-19deg);
     }
