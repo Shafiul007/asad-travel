@@ -478,6 +478,57 @@ font-family: 'Work Sans', sans-serif;
     color: red;
     padding-bottom: 15px;
 }
+.ways{
+    padding:30px 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.ways p{
+    
+    padding-bottom: 15px;
+}
+.ways .way{
+    display: grid;
+    grid-template-columns:repeat(4/1fr);
+    grid-template-rows: repeat(3/1fr);
+    gap: 20px;
+}
+.way > div{
+    padding:3%;  
+ 
+}
+.way > div > i{
+    font-size:40px;
+}
+.way > div > p{
+    color: gray;
+}
+.way > div:hover{
+    box-shadow:6px 6px 10px grey,-6px -6px 10px grey;
+    background: linear-gradient(rgba(150, 100, 100,0.2), rgba(207, 200, 200,1));
+    border-radius: 15px;
+}
+.plane{
+    grid-column: 1/span 2;
+    grid-row: 1/span 1;
+}
+.ship{
+    grid-column: 3/span 2;
+    grid-row: 1/span 1;
+}
+.train{
+    grid-column: 1/span 2;
+    grid-row: 2/span 1;
+}
+.bus{
+    grid-column: 3/span 2;
+    grid-row: 2/span 1;
+}
+.car{
+    grid-column: 2/span 2;
+    grid-row: 3/span 1;
+}
 .part7{
     padding: 40px 100px;
     display: flex;
@@ -948,6 +999,15 @@ footer .icon i:hover{
  
     .step > div > p{
         padding-right: 10px;
+    }
+
+    .ways{
+        padding:20px;
+    }
+    .ways .way{
+        display: flex;
+        flex-direction: column;
+
     }
    
     .part7{
