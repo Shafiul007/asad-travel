@@ -551,13 +551,14 @@ font-family: 'Work Sans', sans-serif;
     padding: 50px 100px 0px 100px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .part8 .left{
-    padding: 40px 30px;
+    padding: 30px 30px;
     border-radius: 8px;
     border: 1px solid orangered;
     margin-right: 10px;
-    height: 430px;
+    /* height: 400px; */
 }
 .heads{
     padding-bottom: 25px;
@@ -622,7 +623,7 @@ font-family: 'Work Sans', sans-serif;
      transform: rotate(-19deg);
 }
 footer{
-    padding: 7cqmin;
+    padding: 7px;
     text-align: center;
     background: rgba(19, 19, 24, 0.05);
     justify-content: center;
@@ -1052,7 +1053,7 @@ footer .icon i:hover{
         background: rgba(68, 65, 65, 0.3);
     }
     .bttn{
-        width: 85%;
+        width: 95%;
     }
     .part8 .right img{
         width: 100%;
